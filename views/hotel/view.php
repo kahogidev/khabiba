@@ -1,76 +1,30 @@
-<!-- Confidence Section -->
-<section class="confidence-section">
-    <div class="auto-container">
-        <!-- Sec Title -->
-        <div class="sec-title centered">
-            <h2><?= Yii::t("app", "hotels")?></h2>
-        </div>
-        <div class="row clearfix">
-
-            <!-- Service Block Two -->
-            <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="icon-box">
-                        <span class="icon flaticon-file"></span>
-                    </div>
-                    <h3><a href="room-detail.html"><?= Yii::t("app", "res3")?></a></h3>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="icon-box">
-                        <span class="icon flaticon-airplane"></span>
-                    </div>
-                    <h3><a href="room-detail.html"><?= Yii::t("app", "res5")?></a></h3>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="icon-box">
-                        <span class="icon flaticon-hotel"></span>
-                    </div>
-                    <h3><a href="room-detail.html"><?= Yii::t("app", "res6")?></a></h3>
-                </div>
-            </div>
-
-        </div>
+<section class="top-location sec-padding-top">
+    <div class="sec-title text-center sec-title-padding">
+        <h2><?= Yii::t("app", "hotels")?></h2>
+        <span class="img-border"></span>
     </div>
-</section>
-<section class="gallery-section-two">
-    <div class="outer-container">
-        <div class="gallery-carousel owl-carousel owl-theme">
-
-            <?php if (!empty($models)): ?>
-                <?php foreach ($models as $model):?>
-                    <?php
-                    $img = app\models\StaticFunctions::getImage('hotel', $model->id, $model->images);
-                    ?>
-                    <div class="gallery-block-three">
-                        <div class="inner-box">
-                            <div class="image">
-                                <img src="<?=$img?>" alt="" />
-                                <div class="overlay-box">
-                                    <div class="overlay-inner">
-                                        <div class="content">
-                                            <div class="upper-content">
-                                                <h2><a href=""><?=$model->name?></a></h2>
-                                            </div>
-                                            <div class="lower-content">
-                                                <div class="text"><?=$model->country?></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <ul class="top-location-slider position-relative">
+        <?php if (!empty($models)): ?>
+            <?php foreach ($models as $model):?>
+                <?php
+                $img = app\models\StaticFunctions::getImage('hotel', $model->id, $model->images);
+                ?>
+                <li class="zt-overlay item  zt-flex zt-flex-bottom">
+                    <div class="caption zt-overlay-panel zt-overlay-background">
+                        <div class="position-relative">
+                            <div class="top-location-content">
+                                <h3> <?=$model->country?> </h3>
+                                <p><?=$model->name?></p>
+                            </div>
+                            <div class="map-location">
+                                <img src="/frontend-files/images/map-2-1.png" alt=""/>
                             </div>
                         </div>
                     </div>
-                <?php endforeach;?>
-            <?php endif;?>
-
-        </div>
-    </div>
+                    <div class="overlay-bg zt-overlay-panel zt-overlay-background"></div>
+                    <img src="<?=$img?>" alt="" />
+                </li>
+            <?php endforeach;?>
+        <?php endif;?>
+    </ul>
 </section>

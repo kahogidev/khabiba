@@ -1,4 +1,3 @@
-<!-- Main Header -->
 <header class="main-header">
 
     <!-- Header Top -->
@@ -6,12 +5,10 @@
         <div class="auto-container d-flex justify-content-between align-items-center flex-wrap">
 
             <!-- Left Box -->
-            <div class="left-box d-flex flex-wrap">
-                <!-- Social Box -->
-            </div>
 
             <!-- Right Box -->
             <div class="right-box d-flex flex-wrap">
+
 
                 <!-- Language -->
                 <div class="language-dropdown">
@@ -19,11 +16,10 @@
                         <i><img src="/frontend-files/images/icons/flag.png" alt="" /></i><?= Yii::t("app", "lang")?> &nbsp;<span class="fa fa-angle-down"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                             <?php
-                                foreach (Yii::$app->params['language'] as $key => $value){
-
-                       echo "<li><a class='dropdown-item' href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
-                                }
+                        <?php
+                            foreach (Yii::$app->params['language'] as $key => $value){
+                                echo'<li><a class="dropdown-item" href="'.\yii\helpers\Url::to(['site/ozgar',"til"=>$key]).'">'.$value.'</a></li>';
+                        }
                             ?>
                     </ul>
                 </div>
@@ -63,7 +59,6 @@
                                     <?php endforeach;?>
                                 <?php endif;?>
 
-                            </ul>
                         </div>
 
                     </nav>
@@ -74,11 +69,12 @@
                 <!-- Outer Box -->
                 <div class="outer-box d-flex align-items-center flex-wrap">
 
+                    <!-- Nav Toggler -->
 
 
                     <!-- Button Box -->
                     <div class="button-box">
-                        <a href="<?=\yii\helpers\Url::to(["admin/"])?>" class="theme-btn btn-style-one"><span class="txt">login</span></a>
+                        <a href="<?=\yii\helpers\Url::to(["admin/"])?>" class="theme-btn btn-style-one"><span class="txt">Login</span></a>
                     </div>
 
                     <!-- Mobile Navigation Toggler -->
@@ -98,7 +94,7 @@
         <div class="auto-container d-flex justify-content-between align-items-center flex-wrap">
             <!-- Logo -->
             <div class="logo">
-                <a href="index-2.html" title=""><img src="/frontend-files/images/sticky-logo.png" alt="" title=""></a>
+                <a href="" title=""><img src="/frontend-files/images/sticky-logo.png" alt="" title=""></a>
             </div>
 
             <!-- Main Menu -->
@@ -117,16 +113,35 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index-2.html"><img src="/frontend-files/images/logo-sidebar.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href=""><img src="/frontend-files/images/logo-sidebar.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
     </div><!-- End Mobile Menu -->
 
 </header>
-
-<!-- Main Slider Section -->
 <section class="main-slider">
     <div class="main-slider-carousel owl-carousel owl-theme">
+
+        <!-- Slide -->
+        <div class="slide" style="background-image: url(/frontend-files/images/main-slider/2.jpg)">
+            <div class="auto-container">
+
+                <!-- Content -->
+                <div class="content-box">
+                    <div class="box-inner">
+                        <span class="color-one"></span>
+                        <span class="color-two"></span>
+                        <h1><a href=""><?= Yii::t("app", "slider1")?></a></h1>
+
+                    </div>
+                    <!-- Help Line -->
+                    <div class="helpline">
+                        <div class="helpline-inner d-flex align-items-center"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
         <!-- Slide -->
         <div class="slide" style="background-image: url(/frontend-files/images/main-slider/1.jpg)">
@@ -137,63 +152,19 @@
                     <div class="box-inner">
                         <span class="color-one"></span>
                         <span class="color-two"></span>
-                        <h1><a href="reservation.html"><?= Yii::t("app", "slider1")?></a></h1>
+                        <h1><a href=""><?= Yii::t("app", "slider2")?></a></h1>
+
                     </div>
                     <!-- Help Line -->
                     <div class="helpline">
-                        <div class="helpline-inner d-flex align-items-center">
-                        </div>
+                        <div class="helpline-inner d-flex align-items-center"></div>
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <!-- Slide -->
-        <div class="slide" style="background-image: url(/frontend-files/images/main-slider/1510383.jpg)">
-            <div class="auto-container">
 
-                <!-- Content -->
-                <div class="content-box">
-                    <div class="box-inner">
-                        <span class="color-one"></span>
-                        <span class="color-two"></span>
-                        <h1><a href="reservation.html"><?= Yii::t("app", "slider2")?></a></h1>
-                        <div class="buttons-box">
-                            </div>
-                    </div>
-                    <!-- Help Line -->
-                    <div class="helpline">
-                        <div class="helpline-inner d-flex align-items-center">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Slide -->
-        <div class="slide" style="background-image: url(/frontend-files/images/main-slider/1510600.jpg)">
-            <div class="auto-container">
-
-                <!-- Content -->
-                <div class="content-box">
-                    <div class="box-inner">
-                        <span class="color-one"></span>
-                        <span class="color-two"></span>
-                        <h1><a href="reservation.html"><?= Yii::t("app", "slider3")?></a></h1>
-                        <div class="buttons-box">
-                        </div>
-                    </div>
-                    <!-- Help Line -->
-                    <div class="helpline">
-                        <div class="helpline-inner d-flex align-items-center">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
 
     </div>
 </section>

@@ -17,6 +17,7 @@
             <div class="carousel-column col-lg-7 col-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="single-item-carousel owl-carousel owl-theme">
+
                         <?php if (!empty($models)): ?>
                             <?php foreach ($models as $model):?>
                                 <div class="testimonial-block">
@@ -28,17 +29,15 @@
                                             <span class="fa fa-star"></span>
                                             <span class="fa fa-star"></span>
                                         </div>
-                                        <div class="text"><?=$model['comment_'.Yii::$app->language];?>.</div>
+                                        <div class="text"><?=$model['comment_'.Yii::$app->language];?></div>
                                         <div class="author">
                                             <?=$model->name?>
-                                            <span><?=$model->email?></span>
+                                            <span> <?=$model->email?></span>
                                         </div>
                                     </div>
                                 </div>
                             <?php endforeach;?>
                         <?php endif;?>
-
-
                     </div>
                 </div>
             </div>

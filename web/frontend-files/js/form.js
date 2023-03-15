@@ -26,8 +26,8 @@ function booking() {
         var date = document.getElementById("date").value;
         var tour = document.getElementById("select").value;
         var my_text = `Yangi buyurtmachi:%0A - Ism: ${name} %0A - Telefon: ${phone} %0A -E-mail: ${email} %0A - Sayohat sanasi: ${date} %0A - Tur paket: ${tour}`;
-        var token =  "6280483953:AAHT56Gs9dmyZocg8JzwBAZtdCd2tVQB5f8";
-        var chat_id = -970215898;
+        var token =  "6252304995:AAFL-WZQ2Nphsbwn2trfrMv29SA1wSIq7bY";
+        var chat_id = -930940601;
         // var chat_id = -683032316;
         var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`;
         let api = new XMLHttpRequest();

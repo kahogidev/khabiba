@@ -1,55 +1,55 @@
 <?php
 return[
 
-    "book" => "Sayohatga Buyurtma berish",
+    "book" => "Buyurtma berish",
     "lang" => "O'zbekcha",
+    "manager" => "Bizning jamoamiz",
     "res" => "Restoranlar",
-    "res1" => "Arzon va sifatli",
-    "res2" => "Oilaviy",
-    "res3" => "Hamyonbop",
-    "res5" => "Tezkor",
-    "res6" => "Ishonchli",
-
+    "res1" => "Oilaviy",
+    "res2" => "Hamyonbop",
+    "res3" => "Mazali taomlar",
+    "hotel11" => "Lyuks xonalar",
+    "hotel2" => "Arzon narxlar",
+    "hotel3" => "Ajoyib xzimat",
+    "banner11" => "Online buyurtma berish imkoni",
+    "managers" => "Bizning jamoamiz",
 
 
 //    slider page
-    "slider1" =>"SAYOHATINGIZNI BIZ BILAN O'TKAZING",
-    "slider2" =>"DUNYO BO'YLAB SAFAR QILING",
-    "slider3" =>"YURTIMIZ BO'YLAB SAYOHAT",
-
+    "slider1" => "Betakror Sarguzashtlar",
+    "sliders1" => "sayohat",
+    "slider2" => "Yurtimiz bo'ylab sayohat",
+    "slider22" => "sAYOHAT QILING ",
+    "sliders2" => "Hoziroq buyurtma bering",
 
 
 //    Services page
     "service_t" => "Bizning xizmatlar",
-    "service1" => "Ajoyib xizmat",
+    "service1" => "Hamyonbop narxlar",
     "service1t" => " Safar davomida dunyoning eng mashxur va taniqli joylariga sayohat qiling",
-    "service3" => "Mazali taomlar",
+    "service3" => "Mehmonxonalar",
     "service3t" => "Dunyoning eng mashxur joylarigatashrif buyurishingiz  va tabiat mo'jizalaridan bahramand bo'lishingiz umkin",
-    "service2" => "Mustahkam hamkorlik",
+    "service2" => "Xavfsiz sayohat",
     "service2t" => "Sayohat qilayogan paytingizda biz sizning xavfsizligingizni ta'minlash uchun doimiy nazorat qilamiz",
-    "service4" => "Ajoyib jamoa",
-    "service5" => "Mashxur mehmonxonalar",
+    "service4" => "Ajoyib xizmat ko'rsatish",
+    "service5" => "Mashxur Restoranlar",
     "service5t" => "Butun dunyoga mashxur to'rt va besh yulduzli restoranlar siz va oilangiz uchun xizmat ko'rsatishga tayyor. ",
     "service6" => "Biz sizga taklif etamiz",
     "service7" => "bizning xizmtlar",
-    "video" => "Dunyoning eng mashxur mehmonxonalarida hordiq chiqaring!",
 
 
 //    About page
     "about0" => "Biz haqimizda",
-    "about3" => "Sayohatingizni biz bilan betakror o'tkazing!",
     "about1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud. Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
-    "about2" => "Siz uchun ma'qul bo'lgan tur paketni tanlash va sayohatga buyurtma bering!",
+    "about2" => "Siz uchun ma'qul bo'lgan tur paketni tanlang va sayohatga buyurtma bering!",
+    "about3" => "Mashxur mehmonxonalar va restoranlar siz uchun",
 
 
 
 //  Gallery info
-
     "galleryinfo" => "Bizning gallereyamiz",
     "hotels" => "Mehmonxonalar",
-    "hotel11" => "5 yulduzli",
-    "hotel2" => "Qulay",
-    "hotel3" => "Arzon",
+
 
 
 
@@ -110,7 +110,6 @@ return[
 
 //    Footer page
     "callus" => "Aloqa uchun",
-    "news" => "Bizga xabar qoldiring",
     "writeus" => "Biznig elektron manzil",
     "addres" => "Manzilimiz",
     "infolinks" => "Bizni ijtimoiy tarmoqdagi manzillarimizga quyidagi havolalar orqali kirishingiz mumkun",

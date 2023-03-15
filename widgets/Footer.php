@@ -4,7 +4,6 @@ namespace app\widgets;
 
 use app\models\Contacts;
 use app\models\Menu;
-
 use yii\bootstrap4\Widget;
 
 class Footer extends Widget

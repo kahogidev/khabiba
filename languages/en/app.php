@@ -1,52 +1,53 @@
 <?php
 return[
-    "book" => "Book a Trip",
+    "book" => "Order",
     "lang" => "Uzbek",
+    "manager" => "Our Team",
     "res" => "Restaurants",
-    "res1" => "Cheap and quality",
-    "res2" => "Family",
-    "res3" => "Affordable",
-    "res5" => "Fast",
-    "res6" => "Reliable",
-
+    "res1" => "Family",
+    "res2" => "Affordable",
+    "res3" => "Delicious food",
+    "hotel11" => "Luxury Rooms",
+    "hotel2" => "Cheap prices",
+    "hotel3" => "Great service",
+    "banner11" => "Possibility to order online",
+    "managers" => "Our team",
 
 
 // slider page
-    "slider1" =>"SPEND YOUR TRIP WITH US",
-    "slider2" =>"TRAVEL AROUND THE WORLD",
-    "slider3" =>"JOURNEY THROUGH OUR COUNTRY",
-
+    "slider1" => "Unique Adventures",
+    "sliders1" => "travel",
+    "slider2" => "Travel around our country",
+    "slider22" => "TAKE A TRAVEL",
+    "sliders2" => "Order now",
 
 
 // Services page
-    "service_t" => "Our catering",
-    "service1" => "Great service",
-    "service1t" => " Travel to the most famous and good sea in the world",
-    "service3" => "Delicious food",
-    "service3t" => "You can visit the world's most famous sun and enjoy the wonders of nature",
-    "service2" => "Strong cooperation",
-    "service2t" => "We constantly monitor to ensure your safety while you travel",
-    "service4" => "Great team",
-    "service5" => "Popular reviews",
+    "service_t" => "Our services",
+    "service1" => "Affordable prices",
+    "service1t" => " Travel to the most famous and famous places of the world during your trip",
+    "service3" => "Hotels",
+    "service3t" => "You can visit the most famous places of the world and enjoy the wonders of nature",
+    "service2" => "Safe Travel",
+    "service2t" => "While you travel, we constantly monitor to ensure your safety",
+    "service4" => "Excellent service",
+    "service5" => "Famous Restaurants",
     "service5t" => "World famous four and five star restaurants are ready to serve you and your family.",
     "service6" => "We offer you",
     "service7" => "our services",
-    "video" => "Have fun in the most famous places in the world!",
+
 // About page
     "about0" => "About Us",
-    "about3" => "Enjoy your trip with us!",
     "about1" => "You can choose any country with good tourism. We will create all the comforts for you. We have adventure tours for you at reasonable prices. Our hotels are very comfortable and affordable for you",
-    "about2" => "Choose a tour package that suits you and order a trip!",
+    "about2" => "Choose the tour package that suits you and order a trip!",
+    "about3" => "Famous hotels and restaurants for you",
 
 
 
 // Gallery info
-
     "galleryinfo" => "Our Gallery",
     "hotels" => "Hotels",
-    "hotel11" => "5 star",
-    "hotel2" => "Comfortable",
-    "hotel3" => "Cheap",
+
 
 
 
@@ -106,7 +107,6 @@ return[
 
 // Footer page
     "callus" => "For Communication",
-    "news" => "Leave us a message",
     "writeus" => "Our email address",
     "address" => "Our Address",
     "infolinks" => "You can access our social network addresses through the following links",

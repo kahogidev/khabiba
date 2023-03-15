@@ -25,10 +25,12 @@ AppAsset::register($this);
 <body class="hidden-bar-wrapper">
 <div class="page-wrapper">
     <?php $this->beginBody() ?>
+    <!-- Preloader -->
     <div class="preloader">
         <span></span>
     </div>
-        <?= \app\widgets\Navigation::widget()?>
+
+    <?= \app\widgets\Navigation::widget()?>
 <!--        --><?//= \app\widgets\Slider::widget()?>
         <?= $content ?>
         <?=\app\widgets\Footer::widget()?>

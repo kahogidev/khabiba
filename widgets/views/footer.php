@@ -1,9 +1,13 @@
+<!-- Main Footer -->
 <footer class="main-footer">
     <div class="auto-container">
         <!-- Upper Box -->
         <div class="upper-box">
             <div class="row clearfix">
+                <!-- Logo Column -->
+                <div class="logo-column col-xl-5 col-lg-4 col-md-12 col-sm-12">
 
+                </div>
                 <!-- Info Column -->
 
             </div>
@@ -15,7 +19,11 @@
             <div class="row clearfix">
 
                 <!-- Footer Column -->
-
+                <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-widget location-widget">
+                        <div class="logo"><a href=""><img src="/frontend-files/images/logo.png" alt="" title=""></a></div>
+                    </div>
+                </div>
 
                 <!-- Footer Column -->
                 <div class="footer-column col-lg-4 col-md-6 col-sm-12">
@@ -24,12 +32,17 @@
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <ul class="footer-list">
+
                                     <?php if(!empty($menues)):?>
-                                         <?php foreach ($menues as $menue):?>
+                                        <?php foreach ($menues as $menue):?>
                                             <li><a href="<?=$menue->link;?>"><?=$menue['name_'.Yii::$app->language];?></a></li>
                                         <?php endforeach;?>
                                     <?php endif;?>
+
                                 </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+
                             </div>
                         </div>
                     </div>
@@ -38,17 +51,16 @@
                 <!-- Footer Column -->
                 <div class="footer-column col-lg-4 col-md-12 col-sm-12">
                     <div class="footer-widget newsletter-widget">
-                        <h5><?= Yii::t("app", "news")?></h5>
+                        <h5><?= Yii::t("app", "contactinfo")?></h5>
+                        <div class="text"><?= Yii::t("app", "message")?></div>
                         <!-- Subscribe Box -->
                         <div class="subscribe-box">
-
                                 <div class="form-group">
-                                    <input type="email" name="search-field" value="" placeholder="<?= Yii::t("app", "email")?>" required>
+                                    <input type="email" name="search-field" value="" placeholder="Email" required>
                                     <button type="submit" class="theme-btn submit-btn">
-                                        <?= Yii::t("app", "subscribe")?>
+                                        Subscribe
                                     </button>
                                 </div>
-
                         </div>
                     </div>
                 </div>
@@ -68,8 +80,10 @@
                 </div>
                 <!-- Column -->
                 <div class="column col-lg-6 col-md-12 col-sm-12">
+
                 </div>
             </div>
         </div>
     </div>
 </footer>
+<!-- End Main Footer -->

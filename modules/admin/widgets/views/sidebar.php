@@ -6,7 +6,7 @@
             </a>
         </div>
         <div>
-            <h4 class="logo-text">Khabiba Travel admin</h4>
+            <h4 class="logo-text">Yaqub Ali Travel admin</h4>
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
@@ -21,7 +21,13 @@
                 <div class="menu-title">Foydalanuvchilar</div>
             </a>
         </li>
-
+        <li>
+            <a href="<?=\yii\helpers\Url::to(['/admin/managers'])?>">
+                <div class="parent-icon"><i class="bx bxs-barcode"></i>
+                </div>
+                <div class="menu-title">Xodimlar</div>
+            </a>
+        </li>
         <li>
             <a href="<?=\yii\helpers\Url::to(['/admin/menu'])?>">
                 <div class="parent-icon"><i class="bx bxs-barcode"></i>

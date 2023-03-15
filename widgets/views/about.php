@@ -1,4 +1,3 @@
-<!-- Hotel Section -->
 <section class="hotel-section">
     <div class="auto-container">
         <div class="row clearfix">
@@ -11,20 +10,18 @@
                         <div class="text"><?= Yii::t("app", "about1")?></div>
                     </div>
                     <!-- Author Box -->
-                    <div class="author-box">
-                        <div class="box-inner">
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <!-- Image Column -->
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="image titlt" data-tilt data-tilt-max="3">
-                        <img src="/frontend-files/images/resource/hotel-1.jpg" alt="" />
+                        <img src="/frontend-files/images/resource/1510582.jpg" alt="" />
                     </div>
                     <div class="image-two">
                         <img src="/frontend-files/images/resource/hotel-2.jpg" alt="" />
+
                     </div>
                 </div>
             </div>
@@ -43,9 +40,8 @@
                     <!-- Video Box -->
                     <div class="video-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <figure class="video-image">
-                            <img src="/frontend-files/images/resource/video-image.jpg" alt="">
+                            <img src="/frontend-files/images/resource/3692584.jpg" alt="">
                         </figure>
-                        <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image overlay-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
                     </div>
                     <!-- Quote Box -->
                     <div class="quote-box">
@@ -72,7 +68,7 @@
                                 <li><?= Yii::t("app", "res3")?></li>
                             </ul>
                             <div class="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <img src="/frontend-files/images/resource/hotel-3.jpg" alt="" />
+                                <img src="/frontend-files/images/resource/5673549.jpg" alt="" />
                             </div>
                         </div>
                         <!-- Column -->
@@ -84,7 +80,7 @@
                                 <li><?= Yii::t("app", "hotel3")?></li>
                             </ul>
                             <div class="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <img src="/frontend-files/images/resource/hotel-4.jpg" alt="" />
+                                <img src="/frontend-files/images/resource/5133442.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -92,68 +88,5 @@
             </div>
 
         </div>
-    </div>
-</section>
-<!-- Options Section -->
-<section class="options-section">
-    <div class="auto-container">
-        <!-- Sec Title -->
-        <div class="sec-title centered">
-            <h2><?= Yii::t("app", "service_t")?></h2>
-        </div>
-        <div class="clearfix">
-
-            <!-- Option Block -->
-
-            <!-- Option Block -->
-            <div class="option-block">
-                <div class="inner-box">
-                    <a class="overlay-link" href="reservation.html"></a>
-                    <div class="icon flaticon-room-service"></div>
-                    <h6><?= Yii::t("app", "service1")?></h6>
-                </div>
-            </div>
-
-            <!-- Option Block -->
-            <div class="option-block">
-                <div class="inner-box">
-                    <a class="overlay-link" href="reservation.html"></a>
-                    <div class="icon flaticon-handshake"></div>
-                    <h6><?= Yii::t("app", "service2")?></h6>
-                </div>
-            </div>
-
-            <!-- Option Block -->
-            <div class="option-block">
-                <div class="inner-box">
-                    <a class="overlay-link" href="reservation.html"></a>
-                    <div class="icon flaticon-hotel-bell"></div>
-                    <h6><?= Yii::t("app", "service3")?></h6>
-                </div>
-            </div>
-
-            <!-- Option Block -->
-            <div class="option-block">
-                <div class="inner-box">
-                    <a class="overlay-link" href="reservation.html"></a>
-                    <div class="icon flaticon-bathrobe"></div>
-                    <h6><?= Yii::t("app", "service5")?></h6>
-                </div>
-            </div>
-
-            <!-- Option Block -->
-            <div class="option-block">
-                <div class="inner-box">
-                    <a class="overlay-link" href="reservation.html"></a>
-                    <div class="icon flaticon-businessmen"></div>
-                    <h6><?= Yii::t("app", "service4")?></h6>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Lower Box -->
-
-
     </div>
 </section>

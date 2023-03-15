@@ -1,4 +1,3 @@
-<!-- Events Section -->
 <section class="events-section">
     <div class="auto-container">
         <!-- Sec Title -->
@@ -10,11 +9,10 @@
             <?php if (!empty($models)): ?>
                 <?php foreach ($models as $model):?>
                 <?php $img = app\models\StaticFunctions::getImage('tours_category', $model->id, $model->images); ?>
-                    <!-- Event Block -->
                     <div class="event-block">
                         <div class="inner-box">
                             <div class="image">
-                                <img style="height: 475px; object-fit: cover" src="<?=$img?>" alt="" />
+                                <img  src="<?=$img?>" alt="" />
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="upper-content">
@@ -32,18 +30,28 @@
             <?php endif;?>
 
 
+
         </div>
     </div>
 </section>
-<section class="beach-section" style="background-image: url(/frontend-files/images/background/3.jpg)">
+<section class="newsletter-section" style="background-image: url(/frontend-files/images/background/2.jpg)">
+    <div class="top-color-layer"></div>
+    <div class="bottom-color-layer"></div>
     <div class="auto-container">
-        <div class="inner-container">
-            <!-- Sec Title -->
-            <div class="sec-title light">
-                <h2><?= Yii::t("app", "video")?></h2>
-            </div>
-            <!-- Button Box -->
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="empty-box"></div>
+            <div class="content">
+                <div class="icon-box">
+                    <span class="icon flaticon-mail"></span>
+                </div>
+                <h2><?= Yii::t("app", "banner11")?></h2>
 
+                <!-- Newsletter Box -->
+                <div class="newsletter-box">
+
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
